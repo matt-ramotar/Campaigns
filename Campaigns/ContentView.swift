@@ -9,13 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        VStack(alignment: .center) {
+            Image("Logo").resizable().aspectRatio( contentMode: .fit).frame(width: 300)
+        }.frame(maxWidth: .infinity, maxHeight: .infinity).background(Color("Standard.Background"))
     }
 }
 
