@@ -24,6 +24,16 @@
 		663702DB29B3BB9800F448AE /* DeviceUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702DA29B3BB9800F448AE /* DeviceUsage.swift */; };
 		663702DD29B3C37C00F448AE /* DigBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702DC29B3C37C00F448AE /* DigBanner.swift */; };
 		663702DF29B3CBFD00F448AE /* EditableAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702DE29B3CBFD00F448AE /* EditableAvatar.swift */; };
+		663702E229B4F64500F448AE /* MobileCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702E129B4F64500F448AE /* MobileCampaign.swift */; };
+		663702E429B4FF6D00F448AE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702E329B4FF6C00F448AE /* Note.swift */; };
+		663702E629B4FFB400F448AE /* MobileAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702E529B4FFB400F448AE /* MobileAction.swift */; };
+		663702E829B4FFDC00F448AE /* MobileBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702E729B4FFDC00F448AE /* MobileBanner.swift */; };
+		663702EA29B4FFF300F448AE /* MobileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702E929B4FFF300F448AE /* MobileButton.swift */; };
+		663702EC29B5000500F448AE /* MobilePopupModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702EB29B5000500F448AE /* MobilePopupModal.swift */; };
+		663702EE29B5001900F448AE /* MobileModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702ED29B5001800F448AE /* MobileModule.swift */; };
+		663702F029B5002F00F448AE /* MobileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702EF29B5002F00F448AE /* MobileScreen.swift */; };
+		663702F229B5004300F448AE /* ComponentBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702F129B5004300F448AE /* ComponentBox.swift */; };
+		663702F429B5009900F448AE /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663702F329B5009900F448AE /* Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +55,16 @@
 		663702DA29B3BB9800F448AE /* DeviceUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUsage.swift; sourceTree = "<group>"; };
 		663702DC29B3C37C00F448AE /* DigBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigBanner.swift; sourceTree = "<group>"; };
 		663702DE29B3CBFD00F448AE /* EditableAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableAvatar.swift; sourceTree = "<group>"; };
+		663702E129B4F64500F448AE /* MobileCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCampaign.swift; sourceTree = "<group>"; };
+		663702E329B4FF6C00F448AE /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		663702E529B4FFB400F448AE /* MobileAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAction.swift; sourceTree = "<group>"; };
+		663702E729B4FFDC00F448AE /* MobileBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileBanner.swift; sourceTree = "<group>"; };
+		663702E929B4FFF300F448AE /* MobileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileButton.swift; sourceTree = "<group>"; };
+		663702EB29B5000500F448AE /* MobilePopupModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePopupModal.swift; sourceTree = "<group>"; };
+		663702ED29B5001800F448AE /* MobileModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileModule.swift; sourceTree = "<group>"; };
+		663702EF29B5002F00F448AE /* MobileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileScreen.swift; sourceTree = "<group>"; };
+		663702F129B5004300F448AE /* ComponentBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentBox.swift; sourceTree = "<group>"; };
+		663702F329B5009900F448AE /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +160,7 @@
 		663702CE29B39BF700F448AE /* shared */ = {
 			isa = PBXGroup;
 			children = (
+				663702E029B4F63300F448AE /* model */,
 				663702D129B39CE900F448AE /* storekit */,
 				663702C329B393E100F448AE /* dig */,
 			);
@@ -168,6 +189,23 @@
 				663702D229B39CF600F448AE /* MultilineButton.swift */,
 			);
 			path = storekit;
+			sourceTree = "<group>";
+		};
+		663702E029B4F63300F448AE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				663702E129B4F64500F448AE /* MobileCampaign.swift */,
+				663702E329B4FF6C00F448AE /* Note.swift */,
+				663702E529B4FFB400F448AE /* MobileAction.swift */,
+				663702E729B4FFDC00F448AE /* MobileBanner.swift */,
+				663702E929B4FFF300F448AE /* MobileButton.swift */,
+				663702EB29B5000500F448AE /* MobilePopupModal.swift */,
+				663702ED29B5001800F448AE /* MobileModule.swift */,
+				663702EF29B5002F00F448AE /* MobileScreen.swift */,
+				663702F129B5004300F448AE /* ComponentBox.swift */,
+				663702F329B5009900F448AE /* Style.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,13 +282,23 @@
 				663702D729B3B24000F448AE /* SpaceUsage.swift in Sources */,
 				663702DB29B3BB9800F448AE /* DeviceUsage.swift in Sources */,
 				663702C929B39A7300F448AE /* Defaults.swift in Sources */,
+				663702F429B5009900F448AE /* Style.swift in Sources */,
+				663702E429B4FF6D00F448AE /* Note.swift in Sources */,
 				663702D529B3A06500F448AE /* UserProfile.swift in Sources */,
 				663702CB29B39B1200F448AE /* HomeTabContent.swift in Sources */,
 				663702BD29B2EEDF00F448AE /* HomeTab.swift in Sources */,
+				663702F029B5002F00F448AE /* MobileScreen.swift in Sources */,
+				663702F229B5004300F448AE /* ComponentBox.swift in Sources */,
 				663702C029B2F72E00F448AE /* AccountTab.swift in Sources */,
 				663702DD29B3C37C00F448AE /* DigBanner.swift in Sources */,
+				663702E229B4F64500F448AE /* MobileCampaign.swift in Sources */,
 				663702DF29B3CBFD00F448AE /* EditableAvatar.swift in Sources */,
 				663702D929B3B8B500F448AE /* DigButton.swift in Sources */,
+				663702EE29B5001900F448AE /* MobileModule.swift in Sources */,
+				663702EA29B4FFF300F448AE /* MobileButton.swift in Sources */,
+				663702E629B4FFB400F448AE /* MobileAction.swift in Sources */,
+				663702E829B4FFDC00F448AE /* MobileBanner.swift in Sources */,
+				663702EC29B5000500F448AE /* MobilePopupModal.swift in Sources */,
 				663702D329B39CF600F448AE /* MultilineButton.swift in Sources */,
 				663702C729B39A4400F448AE /* AccountTabContent.swift in Sources */,
 				663702BA29B2EC6A00F448AE /* Scaffold.swift in Sources */,
@@ -382,7 +430,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Campaigns/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Notes/Preview Content\"";
 				DEVELOPMENT_TEAM = 25H7RUA2Q7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -411,7 +459,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Campaigns/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Notes/Preview Content\"";
 				DEVELOPMENT_TEAM = 25H7RUA2Q7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
