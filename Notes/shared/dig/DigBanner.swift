@@ -1,6 +1,6 @@
 //
 //  DigBanner.swift
-//  Campaigns
+//  Notes
 //
 //  Created by mramotar on 3/4/23.
 //

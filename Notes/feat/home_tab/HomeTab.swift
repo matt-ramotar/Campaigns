@@ -1,6 +1,6 @@
 //
 //  HomeTab.swift
-//  Campaigns
+//  Notes
 //
 //  Created by mramotar on 3/3/23.
 //
